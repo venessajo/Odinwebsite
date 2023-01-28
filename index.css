@@ -1,11 +1,12 @@
-.header {
-    background-color: #1f2937;
-}
+.header,
 .footer {
     background-color: #1f2937;
 }
+.footer {
+    color: whitesmoke;
+}
 
-.header {
+.h1 {
     font-size: 48px;
     font-weight: bolder;
     font color: #f9faf9;
@@ -35,18 +36,21 @@
 }
 nav {}
 
-.button1 {
-    background-color: #3882f6;
-    color: white;
-    padding: 4px;
-}
+.button1,
 .button2 {
     background-color: #3882f6;
     color: white;
+    border-radius: 8em;
+}
+.button1 {
+    padding: 5px;
+}
+
+.button2 {
     border: #e5e7eb;
+    background-color: blue
 }
     
-}
 
 .header {
     display: flex;
@@ -57,13 +61,64 @@ nav {}
 
 .link {
     display: flex;
-    margin: 0;
+    align
     padding: 0;
     gap: 16px;
-  }
+}
+
   ul {
     list-style-type: none;
   }
 
+  header,
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  .quotebox {
+    background-color: #e5e7eb;
+    margin: 50px;
+    padding: 30px;
+    height: 15em;
+    width: 40em;
+  }
 
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+  }
+
+
+  .blackbox {
+    margin: 40px;
+    background-color: aquamarine;
+  }
+  .box1 {
+    margin: 20px;
+    padding: 10px;
+    border: blue;
+  }
+.action {
+    background-color: #3882f6;
+    color: white;
+    padding: 30px;
+    height: 3em;
+    width: 40em;
+    margin: 30px;
+}
+.footer {
+height: 30px;
+margin-top: 2px;
+justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
   
+  .info {
+    max-width: 200px;
+  }
