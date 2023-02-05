@@ -1,6 +1,8 @@
 body {
   margin: auto;
   align-content: center;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 .container1 {
   margin: auto;
@@ -15,6 +17,12 @@ body {
   margin-bottom: 50px;
 }
 
+.container3 {
+  width: 950px;
+  margin: auto;
+  display: flex;
+  }
+
 .h1 {
   font-size: 48px;
   font-weight: bolder;
@@ -24,7 +32,6 @@ body {
 .footer {
     background-color: #1f2937;
 }
-.footer,
 .h1 {
     color: #f9faf8;
 }
@@ -33,7 +40,6 @@ body {
   font-size: 16px;
   color: gainsboro;
   font-family: 'Times New Roman', Times, serif;
-  padding-bottom: ;
 }
 
 .headerlogo {
@@ -41,11 +47,8 @@ body {
     color: #f9faf8;
 }
 
-.action {
-    background-color: #3882f6;
-    margin: auto;
-    padding: 20px;
-    flex-direction: column;
+ul {
+  list-style-type: none;
 }
 
 .p2 {
@@ -55,85 +58,48 @@ body {
     font-family: light italic;
 }
 
+img.colors {
+  margin-top: 1px;
+  margin-left: 50px;
+  display: flex;
+  height: 200px;
+  width: 500px;
+  float: left;
+  padding-bottom: 100px;
+}
+
 
 .button1,
 .button2 {
-    background-color: #3882f6;
     color: white;
-    border-radius: 8em;
     width: 100px;
-}
-.button1 {
     padding: 5px;
-  }
+    border-radius: 4px;
+    background-color: #3882f6;
+}
+
+.button1 {
+  border-color: #3882f6;
+}
 
 .button2 {
     border: #e5e7eb;
-    border-style: ridge;
+    float: right;
+    border-style: groove;
   }
     
-
 .header {
   margin-top: 0%;
   margin-bottom: 70px;
 }
 
-  ul {
-    list-style-type: none;
-  }
-
-  .header,
-  .footer {
+.header,
+.footer {
     display: flex;
     justify-content: space-between;
     }
 
-  .quotebox {
-    background-color: #e5e7eb;
-    margin: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    height: 200px;
-    width: 800px;
-    padding: 50px;
-    text-align: center;
-  }
-
-  .quote {
-    font-size: 28px;
-    font-style: italic;
-    color: #1f2937;
-    font-style: light;
-  }
-  .venessa {
-    font-size: 18px;
-    font-family:'Times New Roman', Times, serif;
-    padding-top: 20px;
-    font-weight: bold;
-    padding-left: 400px;
-  }
-
-
- .action {
-    background-color: #3882f6;
-    color: white;
-    padding: 30px;
-    height: 2em;
-    width: 500px;
-    margin: auto;
-    margin-bottom: 50px;
-}
- .footer {
-  height: 30px;
-  width: 900px;
-  padding: 16px;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  margin-top: 50px;
-}
-
- .container {
+.container {
     display: flex;
     width: 900px;
     height: 20em;
@@ -142,12 +108,13 @@ body {
     gap: 40px;
   }
   
-  .text {
+.text {
     justify-content: space-around;
     display: flex;
     text-align: end;
   }
-  .container4 {
+
+.container4 {
     font-size: 28px;
     font-weight: bold;
     margin: auto;
@@ -155,6 +122,7 @@ body {
     padding-left: 200px;
     padding-right: 200px;
   }
+
   img {
     width: 150px;
     height: 200px;
@@ -171,23 +139,79 @@ body {
   gap: 16px;
   color: gainsboro;
 }
+
 .text {
   display: flex;
   margin: auto;
   flex-wrap: wrap-reverse;
  }
-img.colors {
-  margin-top: 1px;
-  margin-left: 50px;
-  display: flex;
+
+.quotebox {
+  background-color: #e5e7eb;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
   height: 200px;
-  width: 500px;
-  float: left;
-  padding-bottom: 100px;
+  width: 700px;
+  padding: 80px;
+  padding-left: 175px;
+  padding-right: 175px;
+  text-align: center;
 }
 
-.container3 {
-  width: 950px;
-  margin: auto;
-  display: flex;
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
 }
+
+.venessa {
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 20px;
+  font-weight: bold;
+  padding-left: 400px;
+}
+
+.action {
+    background-color: #3882f6;
+    color: white;
+    padding: 30px;
+    height: 40px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.action {
+  background-color: #3882f6;
+  margin: auto;
+  padding: 20px;
+}
+
+.call {
+color: gainsboro;
+}
+
+.time {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.time,
+.call {
+  padding-left: 100px;
+}
+
+
+.footer {
+    height: 30px;
+    width: 900px;
+    padding: 16px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 14px;
+    color: rgb(172, 167, 167);
+  }
