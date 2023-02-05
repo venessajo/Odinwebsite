@@ -1,2 +1,2 @@
-# Odinwebsite
-Practice Website
+Venessajo
+There were a lot of different google searches i went through. Overall, im happy with what i accomplished. I decided to make mine tips and motivational towards what i was working on...which is The Odin Project. I did not go to off from the original because i wanted to challenge myself to make it as close to the original as possible. i got a lot of practice with my CSS skills and had fun doing it! Enjoy :)
